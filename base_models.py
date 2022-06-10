@@ -18,6 +18,7 @@ class BaseStorage(ABC):
     def remove(self, *args, **kwargs):
         pass
 
+
     @property
     @abstractmethod
     def get_free_space(self):
